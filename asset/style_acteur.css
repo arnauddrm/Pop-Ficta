@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "nasa";
+  src: url(font/Nasa21.ttf);
+}
+
+@font-face {
+  font-family: "intro";
+  src: url(font/Intro.otf);
+}
+
+@font-face {
+  font-family: "intro-in";
+  src: url(font/Intro-Inline.otf);
+}
+
+@font-face {
+  font-family: "OSCb";
+  src: url(font/OSC-bold.ttf);
+}
+
+@font-face {
+  font-family: "futura";
+  src: url(font/futura.ttf);
+}
+
+@font-face {
+  font-family: "futura-m";
+  src: url(font/futura-medium.ttf);
+}
+
+.img-act {
+  width: 450px;
+  height: auto;
+  margin-bottom: 2%;
+}
+.contenu-act {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.info-act {
+  margin-left: 5%;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+.nom-act {
+  font-weight: 700;
+  font-family: "futura-m";
+  font-size: 55px;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 15%;
+  width: 600px;
+  /* height: 100px; */
+}
+
+.div-age {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+
+.sous-titre-act-age {
+  font-family: "futura-m";
+  font-size: 20px;
+  color: black;
+  text-transform: uppercase;
+  margin-right: 2%;
+}
+.age-act {
+  font-family: "futura";
+  font-size: 20px;
+  color: black;
+  text-transform: uppercase;
+  width: 400px;
+}
+.div-natio {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+
+.sous-titre-act-natio {
+  font-family: "futura-m";
+  font-size: 20px;
+  color: black;
+  text-transform: uppercase;
+  margin-right: 3%;
+}
+.natio-act {
+  font-family: "futura";
+  font-size: 20px;
+  color: black;
+}
+
+.hr-act {
+  width: 400px;
+  height: 5px;
+  background-color: black;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.sous-titre-act-filmo {
+  font-family: "futura-m";
+  font-size: 20px;
+  color: black;
+  text-transform: uppercase;
+  width: 500px;
+  margin-bottom: 3%;
+}
+
+.div-filmo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.imgfilm-filmo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 2%;
+}
+
+.titrefilm-filmo {
+  font-family: "futura-m";
+  font-size: 16px;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 2%;
+}
+
+.date-filmo {
+  font-family: "futura-m";
+  font-size: 12px;
+  font-style: italic;
+  color: black;
+  text-transform: uppercase;
+}

@@ -1,0 +1,53 @@
+#realm{
+    display: flex;
+    justify-content:  flex-end;
+    align-items: center;
+    background-color: #EAE3CF;
+    height: auto;
+    
+   
+    
+}
+
+h3{
+    font-size: 200%;
+}
+.imagerealm{
+width: 600px;
+height: auto;
+
+
+
+}
+h2{
+    font-size: 20px;
+    font-weight: normal;
+}
+.affichefilmm{
+    width: 100px;
+    height: auto;
+
+
+}
+
+#inforealm{
+margin-left: 5%;
+width: 30%;
+display: flex;
+justify-content: right;
+flex-direction: column;
+align-content: center;
+}
+#titrefilmm {
+font-size: 150%;
+font-weight: 700;
+
+}
+.titrefilmm {
+    color: black;
+ text-decoration: none;
+    
+}
+.nomreal,.prenomreal{
+    font-weight: 600;
+}

@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "nasa";
+  src: url(font/Nasa21.ttf);
+}
+
+@font-face {
+  font-family: "intro";
+  src: url(font/Intro.otf);
+}
+
+@font-face {
+  font-family: "intro-in";
+  src: url(font/Intro-Inline.otf);
+}
+
+@font-face {
+  font-family: "OSCb";
+  src: url(font/OSC-bold.ttf);
+}
+
+@font-face {
+  font-family: "futura";
+  src: url(font/futura.ttf);
+}
+
+@font-face {
+  font-family: "futura-m";
+  src: url(font/futura-medium.ttf);
+}
+
+.imgfilm {
+  width: 200px;
+  height: 265px;
+  margin-left: -70px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* .titrefilm,
+.dureefilm,
+.studiofilm,
+.datesortiefilm {
+  margin-left: 5px;
+} */
+
+table{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  background-color:  #EAE3CF ;
+  }
+
+tr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2%;
+}
+td {
+  margin-left: 2%;
+}
+
+.titrefilm {
+  font-family: "futura-m";
+  font-size: 20px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.studiofilm {
+  font-family: "futura-m";
+  font-size: 16px;
+  color: black;
+}
+
+.datesortiefilm {
+  font-family: "futura-m";
+  font-size: 16px;
+  color: black;
+}
+
+.dureefilm {
+  font-style: italic;
+  font-family: "futura-m";
+  font-size: 16px;
+  color: black;
+}
+
+.taillecase-img {
+  width: 200px;
+  height: 250px;
+}
+
+.taillecase {
+  width: 200px;
+  height: 50px;
+}
+
+.latable {
+  margin-top: 5%;
+}
+
+.taillecase-ajout-suppr {
+  width: 75px;
+  height: 50px;
+}
+
+.ajout-suppr {
+  font-family: "futura-m";
+  font-size: 16px;
+  color: black;
+}
+
+.title-rubrique{
+  font-family: "futura-m";
+  font-size: 55px;
+  color: black;
+  text-transform: uppercase;
+  margin-left: 6.5%;
+  margin-top: 5%;
+}
+
+
+
+.taillecase-act {
+  width: 150px;
+  height: 50px;
+}
+
+.taillecase-ajout-suppr2 {
+  width: 75px;
+  height: 50px;
+  margin-left: 30%;
+}
+
+
+
+
